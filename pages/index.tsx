@@ -23,7 +23,9 @@ const Home: NextPage = () => {
             </li>
             <li className='flex flex-col'>
               <h1 className='text-left text-2xl font-bold'>How to embed the chart?</h1>
-              <p className='text-left text-xl break-words shadow-lg border-2 rounded-xl p-5'>Add ?embed at the end of the URL then attach it like a normal image.</p>
+              <p className='text-left text-xl break-words shadow-lg border-2 rounded-xl p-5'>Add <em className='font-bold'>?embed</em> at the end of the URL then attach it like a normal image<br/>Example: <br/><br/><span className='shadow-inner shadow-black p-3'>
+              https://gitdlchart.vercel.app/api/<strong>{"<author>"}</strong>/<strong>{"<repo>"}</strong>/<strong>{"<asset_name>"}</strong><em className='font-bold'>?embed</em>
+                </span></p>
             </li>
           </ul>
         </div>

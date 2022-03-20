@@ -8,7 +8,7 @@ const Home: NextPage = () => {
         <div className='border-2 border-yellow-100 mb-3 w-full'></div>
         <h1 className='text-3xl font-bold text-center'>GDLC: Github Download Chart</h1>
         <div className='my-3'>
-          <p className='text-xl underline break-words text-center'>https://gitdlchart.vercel.app/<strong>{"<author>"}</strong>/<strong>{"<repo>"}</strong>/<strong>{"<asset_name>"}</strong></p>
+          <p className='text-xl underline break-words text-center'>https://gitdlchart.vercel.app/api/<strong>{"<author>"}</strong>/<strong>{"<repo>"}</strong>/<strong>{"<asset_name>"}</strong></p>
         </div>
         <div className='border-2 border-yellow-100 mt-3 mb-5 w-full'></div>
         <div className='mx-auto container'>
@@ -23,7 +23,7 @@ const Home: NextPage = () => {
             </li>
             <li className='flex flex-col'>
               <h1 className='text-left text-2xl font-bold'>How to embed the chart?</h1>
-              <p className='text-left text-xl break-words shadow-lg border-2 rounded-xl p-5'>Just attach it like a normal image.</p>
+              <p className='text-left text-xl break-words shadow-lg border-2 rounded-xl p-5'>Add ?embed at the end of the URL then attach it like a normal image.</p>
             </li>
           </ul>
         </div>

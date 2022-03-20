@@ -40,7 +40,7 @@ export default async function handler(req: NextApiRequest,res: NextApiResponse<a
       }
     }
   }).reverse();
-  if (releaseObject.keys.length < 1) {
+  if (releaseObject[0]?.name === undefined) {
     return res.status(400).json({
         error: 'No releases found'
     });
